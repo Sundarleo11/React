@@ -13,9 +13,9 @@ function App() {
       <header className="App-header">
         <div style={conatiner}>Name List</div>
 
-        <H3></H3>
-        <H3></H3>
-        <H3></H3>
+        <H3 name='suriya'></H3>
+        <H3 name='kumar'></H3>
+        <H3 name="somu"></H3>
 
 
       </header>
