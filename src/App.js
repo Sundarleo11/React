@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 
+import H3 from './comp/name';
+
 const conatiner = { color: "yellow", border: "1px solid red", paddingTop: "5px", paddingBottom: "5px", width: "300px" }
 
 
@@ -10,9 +12,12 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div style={conatiner}>Name List</div>
-        <div style={conatiner}>Ram</div>
-        <div style={conatiner}>Kumar</div>
-        <div style={conatiner}>sam</div>
+
+        <H3></H3>
+        <H3></H3>
+        <H3></H3>
+
+
       </header>
     </div>
   );
