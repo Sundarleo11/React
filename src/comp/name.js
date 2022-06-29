@@ -1,8 +1,12 @@
-import React from "react";
+import React, { Fragment } from "react";
 
 
 function name(prpos) {
-    return <h2 className='name'>{prpos.children}</h2>
+    return <Fragment>
+        <h2 className='name'>FirstName : {prpos.firstname}</h2>
+        <h2 className='name'>LastName : {prpos.lastname}</h2>
+
+    </Fragment>
 }
 
 export default name;
